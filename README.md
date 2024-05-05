@@ -1,6 +1,6 @@
 King County House Price Predictions Using Regression Models
 
-1.0Business Understanding
+1.0 Business Understanding
 
 1.1 Business Overview
 
