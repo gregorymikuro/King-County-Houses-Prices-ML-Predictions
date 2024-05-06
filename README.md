@@ -121,7 +121,13 @@ Identified outliers that represent legitimate data points and decided not to rem
 ![boxplots](https://github.com/DoreenMolly/House_Prices_Modeling/assets/155205164/68f92ac8-d6db-40d0-88f1-15bea05dfa21)
 
 
-### 3.1 Exploratory Data Analysis – Price (IV) and Independent Variables (Bivariate Analysis)
+3.1 Exploratory Data Analysis – (Univariate Analysis)
+
+
+![image](https://github.com/DoreenMolly/House_Prices_Modeling/assets/162351617/40db0298-9b39-449e-afba-ac21447eca61)
+
+
+### 3.2 Exploratory Data Analysis – Price (IV) and Independent Variables (Bivariate Analysis)
 
 ![price vs all variables](https://github.com/DoreenMolly/House_Prices_Modeling/assets/155205164/4a86afc7-7e1f-49a2-8692-63979556fa4d)
 
@@ -132,7 +138,7 @@ Identified outliers that represent legitimate data points and decided not to rem
 
 - Outliers are present in the data, representing data points significantly deviating from the overall trend, and clusters of points suggest subgroups within the data, highlighting the need for further analysis or modeling to understand underlying patterns.
 
-### 3.2 Exploratory Data Analysis – Correlations between all Variables (Bivariate Analysis)
+### 3.3 Exploratory Data Analysis – Correlations between all Variables (Bivariate Analysis)
 
 
 ![C  MATRIX HEAT MAP](https://github.com/DoreenMolly/House_Prices_Modeling/assets/155205164/c29fde81-60fe-4575-8f9b-311705b7bb25)
@@ -144,7 +150,7 @@ Identified outliers that represent legitimate data points and decided not to rem
 
 - The grade variable strongly correlates with both sqft_living and sqft_above, suggesting that higher-graded houses tend to have larger living spaces and more above-ground square footage.
 
-## 4. Exploratory Data Analysis – Price Vs Longitude and Latitude (Multivariate Analysis)
+## 3.4. Exploratory Data Analysis – Price Vs Longitude and Latitude (Multivariate Analysis)
 
 - Spatial Clusters: Areas around 47.5, -122, 2 and 47.7, -122.1 exhibit clusters of higher-priced real estate (indicated by red dots). These locations likely correspond to desirable neighborhoods or central districts with elevated property values.
 
@@ -153,7 +159,7 @@ Identified outliers that represent legitimate data points and decided not to rem
 
 - Geographical Variation: As latitude and longitude change, real estate prices fluctuate significantly. Understanding these spatial patterns can inform decisions related to property investment, urban planning, and market analysis.
 
-## 5. Modeling Overview
+## 4.0. Modeling Overview
 
 - The data preprocessing phase involved feature engineering and encoding categorical variables. 
 
@@ -171,7 +177,7 @@ Price Range Prediction
 
 ![price range](https://github.com/DoreenMolly/House_Prices_Modeling/assets/155205164/ded551b9-a6e0-46b5-b068-3323df0abe05)
 
-## 6. Deployment
+## 5.0. Deployment
 - XGBoost Price Prediction Model: Achieved exceptional performance in explaining the variability in the target variable, indicating superior predictive accuracy.
 
 -  Efficient Model Evaluation: Demonstrated robustness through low error metrics, indicating minimal overfitting and strong generalization capability.
@@ -183,7 +189,7 @@ Price Range Prediction
 - Visualizations: Observing scatterplots and histograms revealed a linear distribution of prices vs. predicted prices and random residuals, validating the models’ accuracy and reliability.
 
 
-## 7. Conclusion
+## 6.0. Conclusion
 - Accurate Pricing Guidance: Achieved high model accuracy (R-squared > 0.800), empowering agents with precise pricing predictions for effective listing strategies and client communication.
 
 -  Key Feature Identification: Identified 'sqft_living', 'grade', and 'view' as pivotal factors influencing home prices, enabling tailored marketing and negotiation strategies to highlight property attributes.
@@ -194,7 +200,7 @@ Price Range Prediction
 
 - Empowering Data-Driven Decisions: Overall, equipped real estate professionals with actionable insights into housing market dynamics, enabling data-driven decisions that optimize pricing strategies and enhance client satisfaction.
 
-## 8. Recommendations
+## 7.0. Recommendations
 - Action	Responsibility	Evaluation
 
     - Foster Collaboration	Data science & real estate	Schedule bi-weekly meetings from May 1st, 2024. Assess impact on model refinement.
@@ -206,7 +212,7 @@ Price Range Prediction
 
     - Allocate resources by July 1st, 2024. Measure adoption and efficiency gains.
 
-## 9.0 Next Steps
+## 8.0 Next Steps
 - Dynamic Data Pipeline: 
 Develop automated pipeline for real-time data retrieval & preprocessing.
 Ensure models stay current for accurate insights.
