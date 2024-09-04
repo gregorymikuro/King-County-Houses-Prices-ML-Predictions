@@ -24,9 +24,9 @@ This project aims to develop data-driven models to support real estate agents in
 
 - To develop models using the King County Housing dataset to predict home prices based on various features.
 
-     -  To create a model for house price prediction: Provide price predictions for potential listings based on key property characteristics.
+     -  To create a regression model for house price prediction: Provide price predictions for potential listings based on key property characteristics.
 
-     -  To create a model for price range prediction: Establish realistic price ranges for properties based on their features, enhancing agents' negotiation strategies.
+     -  To create a classification model for price range prediction: Establish realistic price ranges for properties based on their features, enhancing agents' negotiation strategies.
 
 - To provide actionable insights to real estate agents to assist them in pricing homes accurately, understanding factors influencing property values, and advising homeowners on targeted renovations
 
